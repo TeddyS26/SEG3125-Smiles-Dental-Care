@@ -87,8 +87,8 @@ function BookingPage() {
               <label className="form-label">Select Service</label>
               <select className="form-select" name="service" onChange={handleInputChange} required>
                 <option selected disabled>Select...</option>
-                <option value="cleaning">Teeth Cleaning and Check-Up</option>
-                <option value="filling">Restorative Dentistry</option>
+                <option value="teeth-cleaning-and-check-up">Teeth Cleaning and Check-Up</option>
+                <option value="restorative-dentistry">Restorative Dentistry</option>
                 <option value="cosmetic-dentistry">Cosmetic Dentistry</option>
                 <option value="orthodontics">Orthodontics</option>
                 <option value="oral-surjery">Oral Surjery</option>
