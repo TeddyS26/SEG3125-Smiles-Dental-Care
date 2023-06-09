@@ -4,11 +4,11 @@ import BookingPage from './components/BookingPage';
 import ServicesPage from './components/ServicesPage';
 import OurProfessionalsPage from './components/OurProfessionalsPage';
 import ContactAboutUsPage from './components/ContactAboutUsPage';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Routes>
         <Route path="/*" element={<HomePage />} />
