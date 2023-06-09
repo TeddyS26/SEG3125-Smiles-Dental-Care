@@ -4,7 +4,7 @@ import ortho from './photos/proffesionals/ortho2.jpg';
 import oral from './photos/proffesionals/oral.jpg';
 import cosmetic from './photos/proffesionals/cosmetic2.jpeg';
 import general from './photos/proffesionals/general.jpg';
-import dentalAnxietyBadge from './photos/proffesionals/badge.png'; // Import the badge image
+import dentalAnxietyBadge from './photos/proffesionals/badge.png';
 
 const OurProfessionalsPage = () => {
   {/* Create box for each proffesional */}
@@ -28,7 +28,6 @@ const OurProfessionalsPage = () => {
       id: 2,
       name: 'Dr. Colasante, Jonathan',
       title: 'Oral Surgeon',
-      isAnxietyExperienced: false,
       description: [
         'Holds a DMD degree along with additional surgical training.',
         'Specializes in surgical procedures of the mouth, jaw, and face.',
@@ -42,7 +41,6 @@ const OurProfessionalsPage = () => {
       id: 3,
       name: 'Dr. Yeung, Nicholas',
       title: 'Dental Cosmetic Surgeon',
-      isAnxietyExperienced: false,
       description: [
         'Holds a Doctor of Osteopathic Medicine (DO) degree.',
         'Completed surgical residency and additional training in cosmetic or plastic surgery.',
