@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+.navbar {
+    background: #183EA0;
+    font-family: 'Jacques Francois', serif;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.navbar-logo {
+  height: 50px;
+  width: auto;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: x-large;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+  
+.nav-link::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+
+.active-link::before {
+    visibility: visible;
+    width: 100%;
+}
