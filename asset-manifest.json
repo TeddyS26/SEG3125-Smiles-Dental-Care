@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SEG3125-Smiles-Dental-Care/static/css/main.c39e3b54.css",
-    "main.js": "/SEG3125-Smiles-Dental-Care/static/js/main.b99cd804.js",
+    "main.js": "/SEG3125-Smiles-Dental-Care/static/js/main.7558aa89.js",
     "static/js/787.d7eaf924.chunk.js": "/SEG3125-Smiles-Dental-Care/static/js/787.d7eaf924.chunk.js",
     "static/media/restore.jpg": "/SEG3125-Smiles-Dental-Care/static/media/restore.589ac92f432cfe40f49a.jpg",
     "static/media/general.jpg": "/SEG3125-Smiles-Dental-Care/static/media/general.5eec3892c75babeb75ea.jpg",
@@ -14,11 +14,11 @@
     "static/media/ortho2.jpg": "/SEG3125-Smiles-Dental-Care/static/media/ortho2.c3f2460abf5d5d55df58.jpg",
     "index.html": "/SEG3125-Smiles-Dental-Care/index.html",
     "main.c39e3b54.css.map": "/SEG3125-Smiles-Dental-Care/static/css/main.c39e3b54.css.map",
-    "main.b99cd804.js.map": "/SEG3125-Smiles-Dental-Care/static/js/main.b99cd804.js.map",
+    "main.7558aa89.js.map": "/SEG3125-Smiles-Dental-Care/static/js/main.7558aa89.js.map",
     "787.d7eaf924.chunk.js.map": "/SEG3125-Smiles-Dental-Care/static/js/787.d7eaf924.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c39e3b54.css",
-    "static/js/main.b99cd804.js"
+    "static/js/main.7558aa89.js"
   ]
 }
