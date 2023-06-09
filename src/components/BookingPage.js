@@ -4,6 +4,7 @@ import './BookingPage.css';
 
 function BookingPage() {
 
+  {/* Store data */}
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -18,6 +19,7 @@ function BookingPage() {
   const [showModal, setShowModal] = useState(false);
   const [missingField, setMissingField] = useState("");
 
+  {/* Takes input in boxes */}
   const handleInputChange = (event) => {
     setFormData({
       ...formData,
@@ -25,6 +27,7 @@ function BookingPage() {
     });
   };
 
+  {/* Check to see if all boxes are filled out*/}
   const handleBooking = () => {
     const { name, email, phoneNumber, address, service, professional, date, time } = formData;
 
@@ -124,7 +127,7 @@ function BookingPage() {
         <button className="btn btn-lg" type="button" onClick={handleBooking} style={{backgroundColor: "#183EA0", color: "white"}}>Book Now</button>
       </div>
 
-      {/* Custom Modal */}
+      {/* Confirmation and Error Pop-Ups */}
       {showModal && (
         <div className="modal show d-block" tabindex="-1" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
           <div className="modal-dialog modal-dialog-centered animated zoomIn">
@@ -166,7 +169,7 @@ function BookingPage() {
         </div>
       )}
 
-      {/* Modal Backdrop */}
+      {/* Pop-Up Backdrop */}
       {showModal && <div className="modal-backdrop show"></div>}
     </div>
   );

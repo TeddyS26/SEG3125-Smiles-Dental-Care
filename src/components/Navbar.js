@@ -8,6 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
+      {/* Click on logo takes to Home page */}
       <Link to="/">
         <img 
           src={logo}
@@ -16,6 +17,7 @@ const Navbar = () => {
         />
       </Link>
 
+      {/* Defining paths for NavBar */}
       <div className={styles['navbar-links']}>
         <Link to="/booking" className={`${styles['nav-link']} ${location.pathname === '/booking' ? styles['active-link'] : ''}`}>Booking</Link>
         <Link to="/services" className={`${styles['nav-link']} ${location.pathname === '/services' ? styles['active-link'] : ''}`}>Services</Link>

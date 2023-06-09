@@ -105,17 +105,18 @@ const ServicesPage = () => {
     }
   ];
 
-  {/* Box layout and structure */}
   return (
     <div className={styles.services}>
       {services.map(service => (
         <div key={service.id} className={styles.service}>
+          {/* Box Header Information and Image */}
           <div className={styles.imageTitleContainer}>
             <div className={styles.imageContainer}>
               <img src={service.image} alt="service" className={styles.serviceImage} />
               <h2 className={styles.serviceTitle}>{service.title}</h2>
             </div>
           </div>
+          {/* Box Body Description */}
           <ul className={styles.serviceDescription}>
             {service.description.map((point, index) => (
               <li key={index}>{point}</li>

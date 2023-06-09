@@ -7,6 +7,7 @@ import general from './photos/proffesionals/general.jpg';
 import dentalAnxietyBadge from './photos/proffesionals/badge.png'; // Import the badge image
 
 const OurProfessionalsPage = () => {
+  {/* Create box for each proffesional */}
   const professionals = [
     {
       id: 1,
@@ -72,6 +73,7 @@ const OurProfessionalsPage = () => {
     <div className={styles.professionals}>
       {professionals.map(professional => (
         <div key={professional.id} className={styles.professional}>
+          {/* Box Header Information */}
           <div className={styles.imageTitleContainer}>
             <h2 className={styles.professionalName}>
               {professional.name}
@@ -84,6 +86,7 @@ const OurProfessionalsPage = () => {
             </h2>
             <h2 className={styles.professionalTitle}>{professional.title}</h2>
           </div>
+          {/* Box Body Description */}
           <div className={styles.professionalContent}>
             <img src={professional.image} alt="professional" className={styles.professionalImage} />
             <ul className={styles.professionalDescription}>
