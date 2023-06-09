@@ -4,14 +4,14 @@ import BookingPage from './components/BookingPage';
 import ServicesPage from './components/ServicesPage';
 import OurProfessionalsPage from './components/OurProfessionalsPage';
 import ContactAboutUsPage from './components/ContactAboutUsPage';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/*" element={<HomePage />} />
         <Route path="/booking" element={<BookingPage />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/professionals" element={<OurProfessionalsPage />} />
