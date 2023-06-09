@@ -101,7 +101,7 @@ function BookingPage() {
               <label className="form-label">Select Professional</label>
               <select className="form-select" name="professional" onChange={handleInputChange} required>
                 <option selected disabled>Select...</option>
-                <option value="dr-jones">Dr. Yassine, Mostafa</option>
+                <option value="dr-yassine">Dr. Yassine, Mostafa</option>
                 <option value="dr-colasante">Dr. Colasante, Jonathan</option>
                 <option value="dr-yeung">Dr. Yeung, Nicholas</option>
                 <option value="dr-bhandari">Dr. Bhandari, Vivek</option>
